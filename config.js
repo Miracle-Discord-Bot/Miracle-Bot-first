@@ -1,13 +1,13 @@
 module.exports = {
-  Admins: ["814170568005124137"], //Admins of the bot
+  Admins: ["your user id"], //Admins of the bot
   ExpressServer: true,//If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || ">", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "", //Support Server Link
-  Token: process.env.Token || "ODc4MzQxODk4NDE3MzQ4NjE4.YR_xow.MxhaDN5mBsosd1xatFFOImRRvhs", //Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "878341898417348618", //Discord Client ID
-  ClientSecret: process.env.Discord_ClientSecret || "NeYsfQRq49Cc_fqVWhKvZZ0B_qe-Zhv8", //Discord Client Secret
-  Scopes: ["identify", "guilds"], //Discord OAuth2 Scopes
+  Token: process.env.Token || "Your Discord Bot Token Here", //Discord Bot Token
+  ClientID: process.env.Discord_ClientID || "Your Discord Client ID", //Discord Client ID
+  ClientSecret: process.env.Discord_ClientSecret || "Your Discord Client Secret", //Discord Client Secret
+  Scopes: ["identify", "guilds"], //Discord OAuth2 Scopes //do not change
   CallbackURL: "/api/callback", //Discord OAuth2 Callback URL
   "24/7": true, //If you want the bot to be stay in the vc 24/7
   CookieSecret: "Pikachu is cute", //A Secret like a password
@@ -24,19 +24,19 @@ module.exports = {
     pass: "youshallnotpass", 
   },
   
-  //Alternate Lavalink
+  //Alternate Lavalink Change this to your server
   /*
   Lavalink: {
-    id: "Main",
-    host: "lava.sudhan.tech",
-    port: 1234,
-    pass: "CodingWithSudhan", 
+    id: "",
+    host: "",
+    port: ,
+    pass: "", 
   },
   */
 
   //Please go to https://developer.spotify.com/dashboard/
   Spotify: {
-    ClientID: process.env.Spotify_ClientID || "e59d2a9e5211471c883a5a93dbcef0f3", //Spotify Client ID
-    ClientSecret: process.env.Spotify_ClientSecret || "b919a00eeb18435a943df63aef9fca02", //Spotify Client Secret
+    ClientID: process.env.Spotify_ClientID || "Spotify Client ID", //Spotify Client ID
+    ClientSecret: process.env.Spotify_ClientSecret || "Spotify Client Secret", //Spotify Client Secret
   },
 };
