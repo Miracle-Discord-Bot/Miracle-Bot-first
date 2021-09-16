@@ -1,0 +1,1 @@
+Enjoy the BOT you may self host this bot you may not in any way steal credit!
