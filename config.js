@@ -14,7 +14,7 @@ module.exports = {
   IconURL:
     "https://pm1.narvii.com/6276/924a9118952e0bab4f8d39db45fbe9996236f283_hq.jpg", //URL of all embed author icons | Dont edit unless you dont need that Music CD Spining
   Permissions: 8, //Bot Inviting Permissions
-  Website: process.env.Website || "", //Website where it was hosted at includes http or https || Use "0.0.0.0" if you using Heroku
+  Website: process.env.Website || "", //Website where it was hosted at includes http or https || Use "0.0.0.0" if you using Heroku (do not edit if on repl.it
 
   //Lavalink
    Lavalink: {
