@@ -3,3 +3,5 @@
 
 
 No ONE BUT DISCORD USER TG | Devansh#5613 Can Self Host The But But it must only be in his server (press the link)
+  
+  DM AgentDeath.#6768 And Miracle Bot Creator#0890 On discord to get perms to host this bot
